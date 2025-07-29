@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BDb-2A-Fip">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--bio-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2fR-dq-WG8">
+                                <rect key="frame" x="0.0" y="118" width="393" height="597"/>
+                                <color key="backgroundColor" red="0.79468112417140868" green="0.91585455387836789" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <mutableString key="text">I am Vanshita ,someone who believes in doing every task with sincerity, consistency, and a positive attitude. Known for being helpful and approachable, I enjoy working in teams and believe in the power of collaboration. With strong leadership qualities and patience, I aim to bring out the best in both myself and those around me. Currently pursuing Computer Science Engineering, I have a strong interest in core technical subjects and love exploring new ideas and technologies. I constantly seek to learn, improve, and contribute meaningfully in everything I take up.</mutableString>
+                                <color key="textColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Vr-MV-i7t">
+                                <rect key="frame" x="238" y="578" width="150" height="155.66666666666674"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="7vq-JV-rPh"/>
+                                    <constraint firstAttribute="height" constant="150" id="YBT-RZ-kTD"/>
+                                </constraints>
+                                <imageReference key="image" image="person.and.background.dotted" catalog="system" symbolScale="large"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.7693304021568621" green="0.91688618868271343" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="2fR-dq-WG8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8n7-eZ-Sww"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2fR-dq-WG8" secondAttribute="trailing" id="Qpr-Yf-7dQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9Vr-MV-i7t" secondAttribute="bottom" constant="5" id="ca1-mq-cQU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9Vr-MV-i7t" secondAttribute="trailing" constant="5" id="pea-B2-pMx"/>
+                            <constraint firstItem="2fR-dq-WG8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wjh-fD-dLC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2fR-dq-WG8" secondAttribute="bottom" constant="20" id="zrC-Bf-bIe"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="bio" image="graduationcap.fill" catalog="system" id="TaO-3c-Agl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-668" y="811"/>
+        </scene>
+        <!--Family-->
+        <scene sceneID="jlQ-SE-83r">
+            <objects>
+                <viewController id="IFc-MW-NWF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xZA-9p-rn5">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kDN-kz-rMK">
+                                <rect key="frame" x="0.0" y="118" width="393" height="597"/>
+                                <color key="backgroundColor" red="0.8223340203242151" green="1" blue="0.83639109207213547" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">For me, family is that safe space where I can truly be myself. They are the people I turn to when I need comfort, advice, or just someone to listen. Whether I’m sharing joy or facing challenges, I know they’ll always be there with open hearts and unwavering support. With them, I never feel judged — only understood. Their presence brings a sense of peace, belonging, and strength that words often fail to capture. They’ve played a major role in shaping my values, mindset, and the person I continue to grow into.</string>
+                                <color key="textColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bwj-H7-wlI">
+                                <rect key="frame" x="238" y="576.33333333333337" width="150" height="157.99999999999989"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="IT2-4A-Vei"/>
+                                    <constraint firstAttribute="height" constant="150" id="Ohr-pR-21d"/>
+                                </constraints>
+                                <imageReference key="image" image="figure.2.and.child.holdinghands" catalog="system" symbolScale="large"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xVZ-ys-Ahe"/>
+                        <color key="backgroundColor" red="0.81704673579854803" green="1" blue="0.84118932687637205" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="kDN-kz-rMK" firstAttribute="leading" secondItem="xVZ-ys-Ahe" secondAttribute="leading" id="JCy-gH-z38"/>
+                            <constraint firstItem="kDN-kz-rMK" firstAttribute="top" secondItem="xVZ-ys-Ahe" secondAttribute="top" id="KQ5-uz-9vd"/>
+                            <constraint firstItem="xVZ-ys-Ahe" firstAttribute="trailing" secondItem="Bwj-H7-wlI" secondAttribute="trailing" constant="5" id="N9J-JA-8xp"/>
+                            <constraint firstItem="xVZ-ys-Ahe" firstAttribute="bottom" secondItem="Bwj-H7-wlI" secondAttribute="bottom" constant="5" id="UHN-MZ-YnS"/>
+                            <constraint firstItem="xVZ-ys-Ahe" firstAttribute="bottom" secondItem="kDN-kz-rMK" secondAttribute="bottom" constant="20" id="vcq-r9-Wis"/>
+                            <constraint firstItem="xVZ-ys-Ahe" firstAttribute="trailing" secondItem="kDN-kz-rMK" secondAttribute="trailing" id="w6K-hp-Rde"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Family" image="person.2.fill" catalog="system" id="I7R-FE-70g"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uhX-Gu-g1u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="810.56338028169023"/>
+        </scene>
+        <!--Hobbies-->
+        <scene sceneID="OOa-2w-wtQ">
+            <objects>
+                <viewController id="a5u-R9-6ue" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lMw-Em-8Qt">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1cc-RP-kxH">
+                                <rect key="frame" x="0.0" y="118" width="393" height="597"/>
+                                <color key="backgroundColor" red="0.94882808411951969" green="1" blue="0.89603016807678226" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">I have a variety of hobbies that keep me creative, active, and connected to myself. I am a foodie who loves exploring different cuisines, and I enjoy baking and cooking new recipes in my free time. Dancing is another passion that brings me joy and energy. I also have a deep interest in spirituality, which helps me stay grounded and mindful. Beyond personal interests, I value teamwork and carry a consistent, patient approach in everything I do. These qualities help me grow not just in hobbies but also in responsibilities that require leadership and collaboration.</string>
+                                <color key="textColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="23"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C7H-nN-84Q">
+                                <rect key="frame" x="238" y="578" width="150" height="156.33333333333337"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="H5n-1h-cR8"/>
+                                    <constraint firstAttribute="width" constant="150" id="fz3-Lt-qgw"/>
+                                </constraints>
+                                <imageReference key="image" image="desktopcomputer.and.macbook" catalog="system" symbolScale="large"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KkR-fN-cN9"/>
+                        <color key="backgroundColor" red="0.93194033095521378" green="1" blue="0.86493277082136621" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="KkR-fN-cN9" firstAttribute="bottom" secondItem="1cc-RP-kxH" secondAttribute="bottom" constant="20" id="5fl-SO-kXF"/>
+                            <constraint firstItem="1cc-RP-kxH" firstAttribute="leading" secondItem="KkR-fN-cN9" secondAttribute="leading" id="IgC-Jo-NG7"/>
+                            <constraint firstItem="KkR-fN-cN9" firstAttribute="trailing" secondItem="1cc-RP-kxH" secondAttribute="trailing" id="PQo-Mk-RWT"/>
+                            <constraint firstItem="KkR-fN-cN9" firstAttribute="bottom" secondItem="C7H-nN-84Q" secondAttribute="bottom" constant="5" id="Ryc-Rc-fkS"/>
+                            <constraint firstItem="KkR-fN-cN9" firstAttribute="trailing" secondItem="C7H-nN-84Q" secondAttribute="trailing" constant="5" id="Ukb-9E-HR5"/>
+                            <constraint firstItem="1cc-RP-kxH" firstAttribute="top" secondItem="KkR-fN-cN9" secondAttribute="top" id="lPz-eR-Xty"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobbies" image="figure.indoor.soccer" catalog="system" id="7Ay-zy-wKr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qiZ-QX-mBk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="854" y="811"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="0cD-up-iZe">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="BDb-2A-Fip" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6vU-Sb-RdQ">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="vH7-Am-fhX"/>
+                        <segue destination="IFc-MW-NWF" kind="relationship" relationship="viewControllers" id="GK0-ln-rk3"/>
+                        <segue destination="a5u-R9-6ue" kind="relationship" relationship="viewControllers" id="6PX-SO-MF6"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jMm-YI-gPQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="desktopcomputer.and.macbook" catalog="system" width="128" height="77"/>
+        <image name="figure.2.and.child.holdinghands" catalog="system" width="128" height="93"/>
+        <image name="figure.indoor.soccer" catalog="system" width="126" height="128"/>
+        <image name="graduationcap.fill" catalog="system" width="128" height="108"/>
+        <image name="person.2.fill" catalog="system" width="128" height="86"/>
+        <image name="person.and.background.dotted" catalog="system" width="128" height="101"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
