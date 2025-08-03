@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  PersonalityQuiz
 //
-//  Created by Student on 01/08/25.
+//  Created by Vanshita Sahi on 23/07/25.
 //
 
 import UIKit
@@ -13,7 +13,9 @@ class IntroductionViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func unwindToQuizIntroduction(segue: UIStoryboardSegue) {
+        
+    }
 
 }
 
